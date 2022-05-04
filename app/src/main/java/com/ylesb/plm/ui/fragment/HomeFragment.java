@@ -98,7 +98,7 @@ public final class HomeFragment extends TitleBarFragment<HomeActivity>
 
         mPagerAdapter = new FragmentPagerAdapter<>(this);
         mPagerAdapter.addFragment(StatusFragment.newInstance(), "列表演示");
-        mPagerAdapter.addFragment(BrowserFragment.newInstance("https://gitee.com/coderxgc"), "网页演示");
+        mPagerAdapter.addFragment(BrowserFragment.newInstance("https://github.com/coderxgc"), "网页演示");
         mViewPager.setAdapter(mPagerAdapter);
         mViewPager.addOnPageChangeListener(this);
 

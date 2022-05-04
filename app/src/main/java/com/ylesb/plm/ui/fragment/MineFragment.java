@@ -184,7 +184,7 @@ public final class MineFragment extends TitleBarFragment<HomeActivity> {
                     .setCancel(null)
                     //.setAutoDismiss(false)
                     .setListener(dialog -> {
-                        BrowserActivity.start(getAttachActivity(), "https://github.com/getActivity/Donate");
+                        BrowserActivity.start(getAttachActivity(), "https://github.com/coderxgc");
                         toast("AndroidProject 因为有你的支持而能够不断更新、完善，非常感谢支持！");
                         postDelayed(() -> {
                             try {
